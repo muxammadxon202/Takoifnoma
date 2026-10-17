@@ -1,4 +1,29 @@
+# Local system and dependency files
 .DS_Store
+node_modules/
+
+# Environment variables and local authentication
 .env
 .env.*
-node_modules/
+.envrc
+.netrc
+.npmrc
+.pypirc
+
+# Private keys and certificates
+*.key
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# Provider credentials and local service configuration
+.aws/
+.ssh/
+.openai/
+.codex/
+.agents/
+
+# Runtime logs
+*.log
