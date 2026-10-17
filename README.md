@@ -29,9 +29,9 @@ The video and music are supplied for this invitation. Public source access does 
 
 ## Demo domain
 
-Planned domain: `taklifnoma.erpflow.us`.
+Planned domain: `taklifnoma.erpflow.uz`.
 
-Add this record with the DNS provider for `erpflow.us`:
+Add this record with the DNS provider for `erpflow.uz`:
 
 | Type | Name | Target | TTL |
 | --- | --- | --- | --- |
@@ -39,4 +39,4 @@ Add this record with the DNS provider for `erpflow.us`:
 
 The target contains no `https://` and no repository path. If the provider is Cloudflare, use **DNS only** while GitHub verifies DNS and issues HTTPS.
 
-After DNS resolves, configure **Settings → Pages → Custom domain** to `taklifnoma.erpflow.us`. Enable **Enforce HTTPS** once GitHub finishes issuing the certificate. Until then the demo remains available at `https://muxammadxon202.github.io/Takoifnoma/`.
+After DNS resolves, configure **Settings → Pages → Custom domain** to `taklifnoma.erpflow.uz`. Enable **Enforce HTTPS** once GitHub finishes issuing the certificate. Until then the demo remains available at `https://muxammadxon202.github.io/Takoifnoma/`.
